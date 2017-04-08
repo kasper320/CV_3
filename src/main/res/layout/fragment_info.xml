@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.sdaacademy.kasperek.andrzej.cv.InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textSize="22sp"
+        android:textColor="@color/primary_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Informacje" />
+<TextView
+    android:textColor="@color/secondary_text"
+    android:text="Informacje do wyświetlenia. Muszę coś tam napisać"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</LinearLayout>

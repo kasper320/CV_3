@@ -3,17 +3,21 @@ package com.sdaacademy.kasperek.andrzej.cv.Model;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.provider.SyncStateContract;
+
+import com.sdaacademy.kasperek.andrzej.cv.Constants;
+import com.sdaacademy.kasperek.andrzej.cv.R;
 
 /**
  * Created by RENT on 2017-04-05.
  */
 
 public class PhoneItem extends CvItem {
-    private String phoneNumber = "530483431";
+    private String phoneNumber = Constants.PHONE_NUMBER;
     private Uri uri;
 
-    public PhoneItem(String caption, int icon) {
-        super(caption, icon);
+    public PhoneItem() {
+        super(Constants.PHONE_NUMBER, R.drawable.ic_phone_black_24dp);
        String number = "tel:" + phoneNumber;
         uri = Uri.parse(number);
     }

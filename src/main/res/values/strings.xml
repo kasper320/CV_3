@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CV</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="experience">Experience</string>
+    <string name="eucation">Eucation</string>
+    <string name="hobby" translatable="false">Hobby</string>
+    <string name="form">Form</string>
 </resources>

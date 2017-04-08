@@ -3,21 +3,25 @@
     <item
         android:id="@+id/navigationMenuContact"
         android:icon="@drawable/ic_github_24dp"
-        android:title="Kontakt" />
+        android:title="@string/contact" />
     <item
         android:id="@+id/navigationMenuUmiejetnosci"
         android:icon="@drawable/ic_hotel_black_24dp"
-        android:title="Umiejętności" />
+        android:title="@string/skills" />
     <item
         android:id="@+id/navigationMenuDoswiadczenie"
         android:icon="@drawable/ic_build_black_24dp"
-        android:title="Doświadczenie" />
+        android:title="@string/experience" />
     <item
         android:id="@+id/navigationMenuWyksztalcenie"
         android:icon="@drawable/ic_contact_mail_black_24dp"
-        android:title="Wykształcenie" />
+        android:title="@string/eucation" />
     <item
         android:id="@+id/navigationMenuMenuHobby"
         android:icon="@drawable/ic_rowing_black_24dp"
-        android:title="Hobby" />
+        android:title="@string/hobby" />
+    <item
+        android:id="@+id/ViewMenuForm"
+        android:icon="@drawable/ic_import_export_black_24dp"
+        android:title="@string/form" />
 </menu>

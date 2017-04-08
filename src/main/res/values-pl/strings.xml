@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="contact">Kontakt</string>
+    <string name="eucation">Wykształcenie</string>
+    <string name="experience">Doświadczenie</string>
+    <string name="form">Formularz</string>
+    <string name="skills">Umiejętności</string>
+    <string name="app_name">CV</string>
+</resources>
